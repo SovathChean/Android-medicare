@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mankind</string>
+    <string name="home">Home</string>
+    <string name="blog">Blogs</string>
+    <string name="more">More</string>
+    <string name="healthy_first">Healthy_First</string>
+    <string name="blogs">blogs</string>
+    <string name="menu">menu</string>
+    <string name="brain">ខួរក្បាល</string>
+    <string name="dental">ធ្មេញ</string>
+    <string name="eye">ភ្នែក</string>
+    <string name="colon">ពោះវៀនធំ </string>
+    <string name="heart">បេះដូង</string>
+    <string name="kidney">តំរងនោម</string>
+    <string name="liver">ថ្លើម</string>
+    <string name="lung">សួត</string>
+    <string name="stomach">ក្រពះ</string>
+    <string name="uterus">ស្បូន</string>
+    <string name="welcome_string">ស្វែងយល់ពីសុខភាពរបស់អ្នកជាមួយយើង</string>
+    <string name="name">​វាយបញ្ចូលឈ្មោះពេញរបស់អ្នក</string>
+    <string name="email"> វាយបញ្ចូលឈ្មោីមែលរបស់អ្នក</string>
+    <string name="password">​វាយបញ្ចូលលេខកូដសំងាត់របស់អ្នក</string>
+    <string name="login">យល់ព្រម</string>
+
+</resources>

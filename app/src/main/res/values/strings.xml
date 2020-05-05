@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mankind</string>
+    <string name="home">Home</string>
+    <string name="blog">Blogs</string>
+    <string name="more">More</string>
+    <string name="healthy_first">Healthy_First</string>
+    <string name="blogs">blogs</string>
+    <string name="menu">menu</string>
+    <string name="brain">Brain</string>
+    <string name="colon">Colon</string>
+    <string name="dental">Dental </string>
+    <string name="eye">Eye</string>
+    <string name="heart">Heart</string>
+    <string name="kidney">Kidney</string>
+    <string name="liver">Liver</string>
+    <string name="lung">Lungs</string>
+    <string name="stomach">Stomach</string>
+    <string name="uterus">Uterus</string>
+    <string name="welcome_string">Explore your health with us</string>
+    <string name="name">Enter your fullname</string>
+    <string name="email">Enter your email</string>
+    <string name="password">Enter your password</string>
+    <string name="login">Login</string>
+
+</resources>
