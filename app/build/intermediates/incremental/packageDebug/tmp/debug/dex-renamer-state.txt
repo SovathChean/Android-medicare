@@ -1,4 +1,4 @@
-#Mon May 04 22:26:45 ICT 2020
-base.0=D\:\\AndroidStudioProjects\\Mankind\\Mankind\\Mankind\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Thu May 07 16:35:27 ICT 2020
+base.0=C\:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

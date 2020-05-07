@@ -8,8 +8,44 @@
     android:background="@color/welcome_page"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/welcome_color"
+            >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toolbar_title"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/menu"
+                android:textColor="@color/welcome_page"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                />
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/menu"
+                android:src="@drawable/ic_menu_foreground"
+                />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/notification"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_notification_foreground"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_alignParentBottom="true"
@@ -21,6 +57,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="150dp"
+        android:layout_below="@+id/toolbar"
         android:background="@color/welcome_color"
         android:contentDescription="@string/healthy_first"
         android:scaleType="centerCrop"
@@ -45,6 +82,7 @@
             android:gravity="center"
             >
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/brain"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/brain"
@@ -66,6 +104,7 @@
             android:gravity="center"
             >
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/colon"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/colon"
@@ -87,16 +126,17 @@
             android:gravity="center"
             >
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dental"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
-                android:src="@drawable/brain"
+                android:src="@drawable/dental"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/brain"
+                android:text="@string/dental"
                 android:textColor="@color/text_color"
                 />
         </LinearLayout>
@@ -118,6 +158,7 @@
             android:gravity="center"
             >
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/eye"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/eye"
@@ -139,6 +180,7 @@
             android:gravity="center"
             >
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/heart"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/heart"
@@ -160,7 +202,7 @@
             android:gravity="center"
             >
             <de.hdodenhof.circleimageview.CircleImageView
-
+                android:id="@+id/kidney"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/kidney"
@@ -192,7 +234,7 @@
             android:gravity="center"
             >
             <de.hdodenhof.circleimageview.CircleImageView
-
+                android:id="@+id/liver"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/liver"
@@ -214,7 +256,7 @@
             android:gravity="center"
             >
             <de.hdodenhof.circleimageview.CircleImageView
-
+                android:id="@+id/lung"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/lungs"
@@ -236,6 +278,7 @@
             android:gravity="center"
             >
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/stomach"
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/stomach"
