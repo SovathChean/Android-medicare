@@ -1492,10 +1492,13 @@ id alertTitle
 id all
 id always
 id async
+id author
 id auto
 id barrier
 id beginning
 id blocking
+id blog_toolbar
+id body
 id bottom
 id bottom_to_top
 id brain
@@ -1641,6 +1644,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id rate
+id recycle_view
 id right
 id right_icon
 id right_side
@@ -1801,6 +1805,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_blog
+layout activity_blog_list
 layout activity_login
 layout activity_main
 layout activity_welcome

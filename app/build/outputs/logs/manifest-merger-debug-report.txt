@@ -77,19 +77,23 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\so
 	android:theme
 		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.mankind.MainActivity
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:12:9-59
 	android:name
 		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:12:19-47
+activity#com.example.mankind.BlogActivity
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml

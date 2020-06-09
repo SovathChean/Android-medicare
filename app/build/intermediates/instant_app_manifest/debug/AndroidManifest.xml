@@ -19,7 +19,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.mankind.MainActivity" >
+        <activity android:name="com.example.mankind.MainActivity" />
+        <activity android:name="com.example.mankind.BlogActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

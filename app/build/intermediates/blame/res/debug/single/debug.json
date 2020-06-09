@@ -68,6 +68,10 @@
         "source": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_notification_background.png"
     },
     {
+        "merged": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_blog_list.xml.flat",
+        "source": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\src\\main\\res\\layout\\activity_blog_list.xml"
+    },
+    {
         "merged": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -154,6 +158,10 @@
     {
         "merged": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_notification.png.flat",
         "source": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\src\\main\\res\\mipmap-hdpi\\ic_notification.png"
+    },
+    {
+        "merged": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_blog.xml.flat",
+        "source": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\src\\main\\res\\layout\\activity_blog.xml"
     },
     {
         "merged": "C:\\Users\\sovath\\Desktop\\Android-Test\\Mankind2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
