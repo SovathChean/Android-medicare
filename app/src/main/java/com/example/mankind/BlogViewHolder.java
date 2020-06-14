@@ -13,7 +13,7 @@ public class BlogViewHolder extends RecyclerView.ViewHolder {
     private TextView title, body, timestamp, author;
 
     public BlogViewHolder(@NonNull View itemView) {
-        super(itemView);
+        super(itemView)
         title = (TextView) itemView.findViewById(R.id.title);
         body = (TextView) itemView.findViewById(R.id.body);
         author = (TextView) itemView.findViewById(R.id.author);
