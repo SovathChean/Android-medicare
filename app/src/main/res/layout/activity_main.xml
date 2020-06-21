@@ -86,6 +86,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/brain"
+                android:onClick="onClick"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />
@@ -108,6 +109,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/colon"
+                android:onClick="onClick"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />
@@ -130,6 +132,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/dental"
+                android:onClick="onClick"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />
@@ -162,6 +165,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/eye"
+                android:onClick="onClick"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />
@@ -184,6 +188,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/heart"
+                android:onClick="onClick"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />
@@ -206,6 +211,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/kidney"
+                android:onClick="onClick"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />
@@ -238,6 +244,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/liver"
+                android:onClick="onClick"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />
@@ -260,6 +267,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/lungs"
+                android:onClick="onClick"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />
@@ -282,6 +290,7 @@
                 android:layout_width="65dp"
                 android:layout_height="70dp"
                 android:src="@drawable/stomach"
+                android:onClick="onClick"
                 app:civ_border_width="2dp"
                 app:civ_border_color="#f0f0f0"
                 />

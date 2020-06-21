@@ -15,7 +15,7 @@
 11-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:4:22-64
 12
 13    <application
-13-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:5:5-21:19
+13-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:5:5-22:19
 14        android:allowBackup="true"
 14-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:7:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,23 +34,26 @@
 22-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:12:9-40
 23        android:usesCleartextTraffic="true" >
 23-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:6:9-44
-24        <activity android:name="com.example.mankind.MainActivity" />
+24        <activity android:name="com.example.mankind.BlogActivity" />
 24-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:9-59
 24-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:19-47
-25        <activity android:name="com.example.mankind.BlogActivity" >
-25-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:9-20:20
+25        <activity android:name="com.example.mankind.MainActivity" />
+25-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:9-59
 25-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:19-47
-26            <intent-filter>
-26-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:13-19:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:17-69
-27-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:18:17-77
-29-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:18:27-74
-30            </intent-filter>
-31        </activity>
-32    </application>
-33
-34</manifest>
+26        <activity android:name="com.example.mankind.WelcomeActivity" >
+26-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:9-21:20
+26-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:19-50
+27            <intent-filter>
+27-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:17-69
+28-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:19:17-77
+30-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>

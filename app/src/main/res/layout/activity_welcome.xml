@@ -11,6 +11,7 @@
         android:layout_height="150dp"
         android:contentDescription="@string/welcome_string"
         android:src="@drawable/logo"
+        android:background="@color/welcome_page"
         />
     <TextView
         android:layout_width="wrap_content"

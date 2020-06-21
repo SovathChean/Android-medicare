@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-24:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\54caeab73851da608ac992dc1f8b731c\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\c6c160beabe7f4f404dcf7d40c9cb143\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f7fa931c10060cb31b4ececcd856b65d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -34,20 +34,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sovath\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\54ec9a60a0f20829d9c5323f1ce0908c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\0571339fd4cb74441b19561f6766bb98\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\0f91f258f9d0abaa0e56c019df47bd85\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:2:11-69
@@ -56,7 +56,7 @@ ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\54caeab73851da608ac992dc1f8b731c\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\54caeab73851da608ac992dc1f8b731c\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\c6c160beabe7f4f404dcf7d40c9cb143\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -85,24 +85,28 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\so
 		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:12:9-40
 	android:usesCleartextTraffic
 		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:6:9-44
-activity#com.example.mankind.MainActivity
+activity#com.example.mankind.BlogActivity
 ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:9-59
 	android:name
 		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:19-47
-activity#com.example.mankind.BlogActivity
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:9-20:20
+activity#com.example.mankind.MainActivity
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:9-59
 	android:name
 		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:19-47
+activity#com.example.mankind.WelcomeActivity
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml
