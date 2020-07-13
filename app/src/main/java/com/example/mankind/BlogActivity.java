@@ -41,7 +41,7 @@ public class BlogActivity extends AppCompatActivity {
     }
 
     private void loadBlogs() {
-        String url = "http://10.0.2.2/android-test/mail.php";
+        String url = "https://my.api.mockaroo.com/testing.json?key=9e083da0";
 
         StringRequest Request = new StringRequest(url, new Response.Listener<String>() {
             @Override

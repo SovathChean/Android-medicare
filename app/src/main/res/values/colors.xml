@@ -6,4 +6,5 @@
     <color name="welcome_page">#e3f2fd</color>
     <color name="welcome_color">#08cccc</color>
     <color name="text_color">#000000</color>
+    <color name="bottomNav">#ffffff</color>
 </resources>

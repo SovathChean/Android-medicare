@@ -766,6 +766,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bottomNav
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1425,12 +1426,9 @@ drawable uterus
 id ALT
 id BOTTOM_END
 id BOTTOM_START
-id Blog
 id CTRL
 id FUNCTION
-id Home
 id META
-id More
 id SHIFT
 id SYM
 id TOP_END
@@ -1497,9 +1495,11 @@ id auto
 id barrier
 id beginning
 id blocking
+id blog
 id blog_toolbar
 id body
 id bottom
+id bottomNav
 id bottom_to_top
 id brain
 id buttonPanel
@@ -1558,6 +1558,7 @@ id first_row
 id fitToContents
 id fixed
 id forever
+id fragment_container
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1598,6 +1599,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id more
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
 id mtrl_calendar_frame
@@ -1725,7 +1727,6 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id toolbar
 id top
 id topPanel
 id top_to_bottom
@@ -1826,6 +1827,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
+layout fragment_option
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -1944,6 +1947,7 @@ string kidney
 string liver
 string login
 string lung
+string mankind
 string menu
 string more
 string mtrl_badge_numberless_content_description

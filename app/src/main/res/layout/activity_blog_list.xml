@@ -25,6 +25,4 @@
         android:layout_below="@+id/body"
          />
 
-
-
 </RelativeLayout>
