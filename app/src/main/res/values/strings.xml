@@ -24,6 +24,7 @@
     <string name="password">Enter your password</string>
     <string name="login">Login</string>
     <!--    tool bar string-->
+    <string name="register">Sign Up</string>
     <string name="toolbar_title">Mankind</string>
     <string name="notification">Notification</string>
     <string name="dashboard">Dashboard</string>
@@ -31,5 +32,7 @@
     <string name="share">Share</string>
     <string name="rating">Rate</string>
     <string name="mankind">Mankind</string>
+    <string name="your_name">Your name</string>
+
 
 </resources>

@@ -7,6 +7,41 @@
     android:layout_height="match_parent"
     android:background="@color/welcome_page"
     tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/welcome_color"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toolbar_title"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/menu"
+                android:textColor="@color/welcome_page"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                />
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/menu"
+                android:src="@drawable/ic_menu_foreground"
+                />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/notification"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_notification_foreground"
+                />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
 
 
     <FrameLayout

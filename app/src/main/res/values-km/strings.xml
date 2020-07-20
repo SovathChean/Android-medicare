@@ -23,6 +23,8 @@
     <string name="password">​វាយបញ្ចូលលេខកូដសំងាត់របស់អ្នក</string>
     <string name="login">យល់ព្រម</string>
     <!--    tool bar string-->
+    <string name="register">Sign Up</string>
+    <string name="your_name">Your name</string>
     <string name="toolbar_title">Mankind</string>
     <string name="notification">Notification</string>
     <string name="dashboard">Dashboard</string>
@@ -30,4 +32,5 @@
     <string name="share">Share</string>
     <string name="rating">Rate</string>
     <string name="mankind">Mankind</string>
+
 </resources>

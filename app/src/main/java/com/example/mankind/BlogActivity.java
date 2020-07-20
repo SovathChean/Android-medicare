@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.android.volley.Response;
@@ -14,11 +13,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import static com.android.volley.Response.*;
 
 public class BlogActivity extends AppCompatActivity {
     RecyclerView recyclerView;
@@ -36,11 +30,11 @@ public class BlogActivity extends AppCompatActivity {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-      loadBlogs();
+         loadBlogs();
 
     }
 
-    private void loadBlogs() {
+    public void loadBlogs() {
         String url = "https://my.api.mockaroo.com/testing.json?key=9e083da0";
 
         StringRequest Request = new StringRequest(url, new Response.Listener<String>() {
@@ -49,7 +43,7 @@ public class BlogActivity extends AppCompatActivity {
                 Gson gson = new Gson();
 
                 Blog[] blogs = gson.fromJson(response, Blog[].class);
-                BlogAdapter blogAdapter = new BlogAdapter(blogs);
+                BlogAdapter blogAdapter = new BlogAdapter(BlogActivity.this, blogs);
                 recyclerView.setAdapter(blogAdapter);
 
             }

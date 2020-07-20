@@ -9,6 +9,31 @@
     tools:context=".MainActivity">
 
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/welcome_color" />
+<!--        >-->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/toolbar_title"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_toRightOf="@+id/menu"-->
+<!--                android:textColor="@color/welcome_page"-->
+<!--                android:textSize="25dp"-->
+<!--                android:fontFamily="sans-serif-condensed-medium"-->
+<!--                />-->
+
+
+<!--        </RelativeLayout>-->
+<!--    </androidx.appcompat.widget.Toolbar>-->
+
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"

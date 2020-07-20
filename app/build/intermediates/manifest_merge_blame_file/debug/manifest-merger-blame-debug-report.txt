@@ -11,49 +11,139 @@
 9-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:4:5-67
-11-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:4:22-64
-12
-13    <application
-13-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:5:5-22:19
-14        android:allowBackup="true"
-14-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:7:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:8:9-43
-18        android:label="@string/app_name"
-18-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:9:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:10:9-54
-20        android:supportsRtl="true"
-20-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:11:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme"
-22-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:12:9-40
-23        android:usesCleartextTraffic="true" >
-23-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:6:9-44
-24        <activity android:name="com.example.mankind.BlogActivity" />
-24-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:9-59
-24-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:19-47
-25        <activity android:name="com.example.mankind.MainActivity" />
-25-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:9-59
-25-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:19-47
-26        <activity android:name="com.example.mankind.WelcomeActivity" >
-26-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:9-21:20
-26-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:19-50
-27            <intent-filter>
-27-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:13-20:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:17-69
-28-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:19:17-77
-30-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:19:27-74
-31            </intent-filter>
-32        </activity>
-33    </application>
-34
-35</manifest>
+11-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\5c5a535ae70ac6cf9801207dc820015c\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:10:5-79
+14-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\5c5a535ae70ac6cf9801207dc820015c\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:10:22-76
+15
+16    <application
+16-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:8:5-32:19
+17        android:name="com.example.mankind.MyApp"
+17-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:9:9-30
+18        android:allowBackup="true"
+18-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\32f4f944aca9213f676acf60269714d3\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:11:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:12:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:13:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:14:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme"
+26-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:15:9-40
+27        android:usesCleartextTraffic="true" >
+27-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:16:9-44
+28        <activity android:name="com.example.mankind.setupActivity" />
+28-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:9-51
+28-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:17:19-48
+29        <activity android:name="com.example.mankind.SignUpActivity" />
+29-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:18:9-52
+29-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:18:19-49
+30        <activity android:name="com.example.mankind.BlogActivity" />
+30-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:19:9-50
+30-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:19:19-47
+31        <activity android:name="com.example.mankind.BlogDetailActivty" />
+31-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:20:9-55
+31-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:20:19-52
+32        <activity android:name="com.example.mankind.MainActivity" />
+32-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:21:9-50
+32-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:21:19-47
+33        <activity android:name="com.example.mankind.LoginActivity" />
+33-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:22:9-51
+33-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:22:19-48
+34        <activity android:name="com.example.mankind.WelcomeActivity" >
+34-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:23:9-29:20
+34-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:23:19-50
+35            <intent-filter>
+35-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:24:13-28:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:25:17-69
+36-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:25:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:27:17-77
+38-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:27:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:30:9-31:58
+42            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+42-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:30:19-82
+43            android:theme="@style/Base.Theme.AppCompat" />
+43-->C:\Users\sovath\Desktop\Android-Test\Mankind2\app\src\main\AndroidManifest.xml:31:13-56
+44
+45        <service
+45-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\5c5a535ae70ac6cf9801207dc820015c\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:14:9-18:19
+46            android:name="com.google.firebase.components.ComponentDiscoveryService"
+46-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\5c5a535ae70ac6cf9801207dc820015c\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:14:18-89
+47            android:exported="false" >
+47-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+48            <meta-data
+48-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\5c5a535ae70ac6cf9801207dc820015c\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:15:13-17:85
+49                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+49-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\5c5a535ae70ac6cf9801207dc820015c\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:16:17-111
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\5c5a535ae70ac6cf9801207dc820015c\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:17:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+52                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+52-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+54        </service>
+55
+56        <activity
+56-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+57            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+57-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+58            android:excludeFromRecents="true"
+58-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+59            android:exported="true"
+59-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+60            android:launchMode="singleTask"
+60-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+61            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+61-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\f4771060f1b35515b499a807d8347163\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+63        <activity
+63-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\860dec5a26c48b465ae18be47af20d12\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\860dec5a26c48b465ae18be47af20d12\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\860dec5a26c48b465ae18be47af20d12\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\860dec5a26c48b465ae18be47af20d12\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+67
+68        <provider
+68-->[com.google.firebase:firebase-common:16.0.3] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\152fce7bd4f1441dd2d33dd755bf064b\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+69            android:name="com.google.firebase.provider.FirebaseInitProvider"
+69-->[com.google.firebase:firebase-common:16.0.3] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\152fce7bd4f1441dd2d33dd755bf064b\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+70            android:authorities="com.example.mankind.firebaseinitprovider"
+70-->[com.google.firebase:firebase-common:16.0.3] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\152fce7bd4f1441dd2d33dd755bf064b\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+71            android:exported="false"
+71-->[com.google.firebase:firebase-common:16.0.3] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\152fce7bd4f1441dd2d33dd755bf064b\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+72            android:initOrder="100" />
+72-->[com.google.firebase:firebase-common:16.0.3] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\152fce7bd4f1441dd2d33dd755bf064b\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+73
+74        <meta-data
+74-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\149c5074b66683876fd33ac52fa73774\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+75            android:name="com.google.android.gms.version"
+75-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\149c5074b66683876fd33ac52fa73774\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+76            android:value="@integer/google_play_services_version" />
+76-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\sovath\.gradle\caches\transforms-2\files-2.1\149c5074b66683876fd33ac52fa73774\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+77    </application>
+78
+79</manifest>

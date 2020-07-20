@@ -12,6 +12,6 @@
         android:title="@string/blogs" />
     <item
         android:id="@+id/more"
-        android:icon="@drawable/more"
-        android:title="@string/more" />
+        android:icon="@drawable/ic_account"
+        android:title="Account" />
 </menu>

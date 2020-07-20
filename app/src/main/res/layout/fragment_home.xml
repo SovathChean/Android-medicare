@@ -6,6 +6,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/welcome_page"
     >
+    <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/welcome_color" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -14,246 +19,37 @@
         android:background="@color/welcome_color"
         android:contentDescription="@string/healthy_first"
         android:scaleType="centerCrop"
+        android:layout_below="@id/toolbar"
         app:srcCompat="@drawable/slide_3" />
-
-
     <LinearLayout
-        android:id="@+id/first_row"
-        android:baselineAligned="false"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         android:layout_below="@+id/imageView"
-
+        android:padding="8dp"
         >
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/brain"
-                android:layout_width="65dp"
-                android:layout_height="70dp"
-                android:src="@drawable/brain"
-                android:onClick="onClick"
-                app:civ_border_width="2dp"
-                app:civ_border_color="#f0f0f0"
-                />
-            <TextView
+            android:text="Most Important"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <ProgressBar
+                android:id="@+id/progress_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/brain"
-                android:textColor="@color/text_color"
+                android:layout_gravity="center"
                 />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/colon"
-                android:layout_width="65dp"
-                android:layout_height="70dp"
-                android:src="@drawable/colon"
-                android:onClick="onClick"
-                app:civ_border_width="2dp"
-                app:civ_border_color="#f0f0f0"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/colon"
-                android:textColor="@color/text_color"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/dental"
-                android:layout_width="65dp"
-                android:layout_height="70dp"
-                android:src="@drawable/dental"
-                android:onClick="onClick"
-                app:civ_border_width="2dp"
-                app:civ_border_color="#f0f0f0"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/dental"
-                android:textColor="@color/text_color"
-                />
-        </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/home_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
 
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/second_row"
-        android:baselineAligned="false"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:layout_below="@+id/first_row" >
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/eye"
-                android:layout_width="65dp"
-                android:layout_height="70dp"
-                android:src="@drawable/eye"
-                android:onClick="onClick"
-                app:civ_border_width="2dp"
-                app:civ_border_color="#f0f0f0"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/eye"
-                android:textColor="@color/text_color"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/heart"
-                android:layout_width="65dp"
-                android:layout_height="70dp"
-                android:src="@drawable/heart"
-                android:onClick="onClick"
-                app:civ_border_width="2dp"
-                app:civ_border_color="#f0f0f0"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/heart"
-                android:textColor="@color/text_color"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/kidney"
-                android:layout_width="65dp"
-                android:layout_height="70dp"
-                android:src="@drawable/kidney"
-                android:onClick="onClick"
-                app:civ_border_width="2dp"
-                app:civ_border_color="#f0f0f0"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/kidney"
-                android:textColor="@color/text_color"
-                />
-        </LinearLayout>
-
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/third_row"
-        android:baselineAligned="false"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:layout_below="@+id/second_row" >
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/liver"
-                android:layout_width="65dp"
-                android:layout_height="70dp"
-                android:src="@drawable/liver"
-                android:onClick="onClick"
-                app:civ_border_width="2dp"
-                app:civ_border_color="#f0f0f0"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/liver"
-                android:textColor="@color/text_color"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/lung"
-                android:layout_width="65dp"
-                android:layout_height="70dp"
-                android:src="@drawable/lungs"
-                android:onClick="onClick"
-                app:civ_border_width="2dp"
-                app:civ_border_color="#f0f0f0"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/lung"
-                android:textColor="@color/text_color"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/stomach"
-                android:layout_width="65dp"
-                android:layout_height="70dp"
-                android:src="@drawable/stomach"
-                android:onClick="onClick"
-                app:civ_border_width="2dp"
-                app:civ_border_color="#f0f0f0"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/stomach"
-                android:textColor="@color/text_color"
-                />
-        </LinearLayout>
 
     </LinearLayout>
 </RelativeLayout>

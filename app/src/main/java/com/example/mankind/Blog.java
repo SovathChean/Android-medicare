@@ -1,11 +1,19 @@
 package com.example.mankind;
 
 public class Blog {
-    private String title, body, author;
+    private String title, body, author, photo;
     private long time;
 
     public long getTime() {
         return time;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 
     public void setTime(long time) {
@@ -35,4 +43,6 @@ public class Blog {
     public void setTitle(String title) {
         this.title = title;
     }
+
+
 }

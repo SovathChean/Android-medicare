@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/blog_list"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     >
-    <TextView
-        android:id="@+id/title"
+   <com.facebook.drawee.view.SimpleDraweeView
+       android:id="@+id/img_sender"
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       app:placeholderImage="@drawable/ic_img_sender"
+      />
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        />
-    <TextView
-        android:id="@+id/body"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/title"
-        />
-    <TextView
-        android:id="@+id/author"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/body"
-         />
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            />
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/body"
+            />
+    </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>
